@@ -7,7 +7,7 @@ from nltk.tokenize import word_tokenize
 from bs4 import BeautifulSoup
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-from scraper import STOPWORDS
+from jke import STOPWORDS
 
 # Download required NLTK data (only once)
 nltk.download('punkt')

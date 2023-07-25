@@ -1,7 +1,7 @@
 import click
 
-from scraper.scraper import Scraper
-from scraper.tfidf import TFIDFPreprocessor
+from jke.scraper import Scraper
+from jke.tfidf import TFIDFPreprocessor
 
 @click.command
 @click.option("--job-title", "-t", type=str, required=True)
